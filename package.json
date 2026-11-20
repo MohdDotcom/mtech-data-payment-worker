@@ -1,0 +1,9 @@
+{
+  "name": "mtech-data-payment-worker",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "firebase-auth-cloudflare-workers": "^1.1.1"
+  }
+}
