@@ -2,5 +2,10 @@ name = "mtech-data-payment"
 main = "src/index.js"
 compatibility_date = "2026-11-21"
 
-[build]
-command = "npm install"
+[vars]
+FIREBASE_PROJECT_ID = "mtech-data-127a1"
+PUBLIC_JWK_CACHE_KEY = "firebase-public-keys"
+
+[[kv_namespaces]]
+binding = "FIREBASE_KEY_CACHE"
+id = "558fd68bb7904e08844d1c70135f7372"
