@@ -3,9 +3,9 @@ main = "src/index.js"
 compatibility_date = "2026-11-21"
 
 [vars]
-FIREBASE_PROJECT_ID = "mtech-data-127a1"
+PROJECT_ID = "mtech-data-127a1"
 PUBLIC_JWK_CACHE_KEY = "firebase-public-keys"
 
 [[kv_namespaces]]
-binding = "FIREBASE_KEY_CACHE"
+binding = "PUBLIC_JWK_CACHE_KV"
 id = "558fd68bb7904e08844d1c70135f7372"
