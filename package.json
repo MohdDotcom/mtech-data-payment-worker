@@ -4,6 +4,6 @@
   "private": true,
   "type": "module",
   "dependencies": {
-    "firebase-auth-cloudflare-workers": "^1.1.1"
+    "firebase-auth-cloudflare-workers": "^2.0.5"
   }
 }
